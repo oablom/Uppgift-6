@@ -158,20 +158,25 @@ body {
             .Section2box__left div {
                 transform: translateY(45px);
             }
-            .Section2box__button, .Section2box__videolink, .signupnow { 
-                width: 175px;
-                height: 53px;
-                background: rgba(255, 153, 0, 1);
-                color: white;
-                border: 0;
-            }
-            .Section2box__videolink {
-                color: rgba(255, 153, 0, 1);
-                background: transparent;
-                position: relative;
-                margin-left: 30px;
-                
-            }
+                .Section2box__button, .Section2box__videolink, .signupnow { 
+                    width: 175px;
+                    height: 53px;
+                    background: rgba(255, 153, 0, 1);
+                    color: white;
+                    border: 0;
+                }
+                .Section2box__videolink {
+                    color: rgba(255, 153, 0, 1);
+                    background: transparent;
+                    position: relative;
+                    margin-left: 30px;
+                }
+
+                .playicon {
+                    height: 17px;
+                    width: 20px;
+                    transform: translateY(2px);
+                }
         /* </Section 2 buttons> */
 
             .Section2box__right {

@@ -53,64 +53,64 @@ body {
 }
 
 /* <Menu> */
-.Top-Menu {
-    display: flex;
-    justify-content: center;
-}
-
-    .Top-Menubox {
+    .Top-Menu {
         display: flex;
-        justify-content: space-between;
-        margin-top: 20px;
-        height: 78px;
-        width: 1120px;
-        align-items: center;
+        justify-content: center;
     }
 
-    .logo {
-        height: 32px;
-        width: 185px;
-    }
-
-    /* <Navigation bar> */
-    .Navigation {
-        transform: translate(125px);
-        display: flex;
-        justify-content: space-between;
-        width: 350px;
-    }
-
-        .Navigation a {
-            text-decoration: none;
-            color: black;
+        .Top-Menubox {
+            display: flex;
             justify-content: space-between;
-            font-size: 14px;
-            font-weight: 400;
-        }
-    /* </Navigation bar> */
-
-    /* <Buttons> */
-    .Signin, .Signup, .Section2box__button, .Section2box__videolink, .signupnow {
-        height: 46px;
-        width: 102px;
-        border-radius: 4px;
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 24px;
+            margin-top: 20px;
+            height: 78px;
+            width: 1120px;
+            align-items: center;
         }
 
-    .Signin {
-        background-color: transparent;
-        color: #173A56;
-        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-        border: 1px solid #BCD0E5;
-        box-sizing: border-box;
+        .logo {
+            height: 32px;
+            width: 185px;
         }
-    .Signup, .Signupnow2 {
-        background: rgba(255, 153, 0, 1);
-        color: white;
-        border: 0;
-         }
+
+        /* <Navigation bar> */
+        .Navigation {
+            transform: translate(125px);
+            display: flex;
+            justify-content: space-between;
+            width: 350px;
+        }
+
+            .Navigation a {
+                text-decoration: none;
+                color: black;
+                justify-content: space-between;
+                font-size: 14px;
+                font-weight: 400;
+            }
+        /* </Navigation bar> */
+
+        /* <Buttons> */
+        .Signin, .Signup, .Section2box__button, .Section2box__videolink, .signupnow {
+            height: 46px;
+            width: 102px;
+            border-radius: 4px;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 24px;
+            }
+
+        .Signin {
+            background-color: transparent;
+            color: #173A56;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+            border: 1px solid #BCD0E5;
+            box-sizing: border-box;
+            }
+        .Signup, .Signupnow2 {
+            background: rgba(255, 153, 0, 1);
+            color: white;
+            border: 0;
+            }
     /* </Buttons> */
 
 /* </Menu> */
@@ -122,61 +122,62 @@ body {
         height: 526px;
     }
 
-    .Section2box { 
-        transform: translateY(30px);
-        display: flex;
-        justify-content: center;
-        width: 1126px;
-        align-items: center;
-        }
-
-        .Section2box-left {
-            width: 518px;
-        }
-
-        .Section2 h1, .Section3 h2, .Section4 h2, .Section5 h2, .Section6 h2 {
-            font-weight: bold;
-            line-height: 54px;
-            color: #2F281E;
-            transform: translateY(-30px);
+        .Section2box { 
+            transform: translateY(30px);
+            display: flex;
+            justify-content: center;
+            width: 1126px;
+            align-items: center;
             }
 
-        .Section2box__header {
-            font-size: 44px;
-            transform: translateY(-30px);
-        }
+            .Section2box-left {
+                width: 518px;
+            }
 
-        .Section2box p {
-            font-weight: normal;
-            font-size: 18px;
-            line-height: 28px;
-            color: #544837;
-        }
+            .Section2 h1, .Section3 h2, .Section4 h2, .Section5 h2, .Section6 h2 {
+                font-weight: bold;
+                line-height: 54px;
+                color: #2F281E;
+                transform: translateY(-30px);
+                }
 
-    /* <Section 2 buttons> */
-        .Section2box__left div {
-            transform: translateY(45px);
-        }
-        .Section2box__button, .Section2box__videolink, .signupnow { 
-            width: 175px;
-            height: 53px;
-            background: rgba(255, 153, 0, 1);
-            color: white;
-            border: 0;
-        }
-        .Section2box__videolink {
-            text-decoration: none;
-            color: rgba(255, 153, 0, 1);
-            background: transparent;
-            position: relative;
-            margin-left: 30px;
-        }
-    /* </Section 2 buttons> */
+            .Section2box__header {
+                font-size: 44px;
+                transform: translateY(-30px);
+            }
+            
 
-        .Section2box__right {
-            height: 496px;
-            width: 605px;
-        }
+            .Section2box p {
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 28px;
+                color: #544837;
+            }
+
+        /* <Section 2 buttons> */
+            .Section2box__left div {
+                transform: translateY(45px);
+            }
+            .Section2box__button, .Section2box__videolink, .signupnow { 
+                width: 175px;
+                height: 53px;
+                background: rgba(255, 153, 0, 1);
+                color: white;
+                border: 0;
+            }
+            .Section2box__videolink {
+                color: rgba(255, 153, 0, 1);
+                background: transparent;
+                position: relative;
+                margin-left: 30px;
+                
+            }
+        /* </Section 2 buttons> */
+
+            .Section2box__right {
+                height: 496px;
+                width: 605px;
+            }
 /* </Section 2> */
 
 /* <Section 3>  */

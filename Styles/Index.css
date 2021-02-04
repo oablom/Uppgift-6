@@ -175,8 +175,11 @@ body {
                 .fa-play {
                     height: 17px;
                     width: 20px;
-                    transform: translateY(2px);
+                    color: #FF9900;
+                    border-radius: 1.125px;
+                    transform: translate(-2px);
                 }
+
         /* </Section 2 buttons> */
 
             .Section2box__right {
